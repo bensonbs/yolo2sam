@@ -15,10 +15,10 @@ git clone https://github.com/bensonbs/yolo2sam/
 
 ## 模型下載
 - `vit_l`: [ViT-L SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
-- `vit_l`: [GD備份](https://drive.google.com/file/d/1pZCygoP_W_vX6yNtbAccIcMkzgtDsfqG/view?usp=drive_link)
+- `vit_l`: [Google Drive](https://drive.google.com/file/d/1pZCygoP_W_vX6yNtbAccIcMkzgtDsfqG/view?usp=drive_link)
 
-  
-放置目錄 `~/yolo2sam/sam_vit_l_0b3195.pth`
+放置於目錄 `yolo2sam/sam_vit_l_0b3195.pth`
+
 ### Step1. 由CVAT輸出`YOLO`標注結果
 <p float="left">
   <img src="demo/03.png" width="100%" />
