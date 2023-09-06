@@ -6,7 +6,7 @@
   <img src="demo/02.png" width="44.5%" /> 
 </p>
 
-套件安裝
+## 套件安裝
 ```
 pip install git+https://github.com/facebookresearch/segment-anything.git
 pip install rich
