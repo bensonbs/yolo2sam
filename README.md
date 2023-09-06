@@ -24,6 +24,10 @@ Step2. Export format選擇`YOLO 1.1` ,`句選` Save images ,點擊`OK`
 </p>
 
 Step3. 執行yolo2sam.py
+```
+python yolo2sam.py -p /path/to/output.zip
+```
+輸出結果
 ```shell
 (base) mefae1@pop-os:~/segment-anything$ python yolo2sam.py -p '/home/mefae1/下載/output.zip' 
 Unzip file..
