@@ -19,7 +19,7 @@ git clone https://github.com/bensonbs/yolo2sam/
 
 放置於目錄 `yolo2sam/sam_vit_l_0b3195.pth`
 
-### Step1. 由CVAT輸出`YOLO`標注結果
+### Step1. 由CVAT輸出標注結果
 <p float="left">
   <img src="demo/03.png" width="100%" />
 </p>
