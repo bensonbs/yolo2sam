@@ -9,7 +9,7 @@
 套件安裝
 ```
 pip install git+https://github.com/facebookresearch/segment-anything.git
-pip install rich shutil
+pip install rich
 git clone https://github.com/bensonbs/yolo2sam/
 ```
 
