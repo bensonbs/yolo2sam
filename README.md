@@ -10,6 +10,7 @@
 ```
 pip install git+https://github.com/facebookresearch/segment-anything.git
 pip install rich shutil
+git clone https://github.com/bensonbs/yolo2sam/
 ```
 
 ### Step1. 由CVAT輸出`YOLO`標注結果
