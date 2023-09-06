@@ -24,7 +24,7 @@ git clone https://github.com/bensonbs/yolo2sam/
   <img src="demo/03.png" width="100%" />
 </p>
 
-### Step2. Export format選擇`YOLO 1.1` ,`句選` Save images ,點擊`OK`
+### Step2. Export format選擇`COCO 1.0` ,`句選` Save images ,點擊`OK`
 
 <p float="left">
   <img src="demo/04.png" width="50%" />
