@@ -1,6 +1,6 @@
 # yolo2sam 
 
-### 使用將Segment Anything 將CVAT平台的YOLO格式轉為Segment
+### 使用將Segment Anything 將CVAT平台的`Bounding box`格式轉為`Segment keypoints`
 <p float="left">
   <img src="demo/01.png" width="45.25%" />
   <img src="demo/02.png" width="44.5%" /> 
