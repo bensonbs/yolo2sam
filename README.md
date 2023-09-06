@@ -1,5 +1,11 @@
 # yolo2sam 
 
+### 使用將Segment Anything 將CVAT平台的YOLO格式轉為Segment
+<p float="left">
+  <img src="demo/01.png" width="45.25%" />
+  <img src="demo/02.png" width="44.5%" /> 
+</p>
+
 套件安裝
 ```
 pip install git+https://github.com/facebookresearch/segment-anything.git
@@ -8,13 +14,13 @@ pip install rich shutil
 
 Step1. 由CVAT輸出`YOLO`標注結果
 <p float="left">
-  <img src="Demo_01.png" width="100%" />
+  <img src="demo/03.png" width="100%" />
 </p>
 
 Step2. Export format選擇`YOLO 1.1` ,`句選` Save images ,點擊`OK`
 
 <p float="left">
-  <img src="Demo_02.png" width="100%" />
+  <img src="demo/04.png" width="50%" />
 </p>
 
 Step3. 執行yolo2sam.py
@@ -26,6 +32,11 @@ Loading SAM Model..
 Working... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:01:22
 Finshed, output in /home/mefae1/下載/output-seg.zip
 ```
+
+Step3. 上傳`output-seg.zip`
+<p float="left">
+  <img src="demo/05.png" width="50%" />
+</p>
 
 # Segment Anything
 
