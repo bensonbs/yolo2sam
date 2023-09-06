@@ -1,3 +1,24 @@
+# yolo2sam 
+
+套件安裝
+```
+pip install git+https://github.com/facebookresearch/segment-anything.git
+pip install rich shutil
+```
+
+Step1. 由CVAT輸出`YOLO`標注結果
+<p float="left">
+  <img src="Demo_01.png" width="100%" />
+</p>
+
+Step2. Export format選擇`YOLO 1.1` ,`句選` Save images ,點擊`OK`
+
+<p float="left">
+  <img src="Demo_02.png" width="100%" />
+</p>
+
+Step3. python yolo2sam.py -p /path/to/output.zip
+
 # Segment Anything
 
 **[Meta AI Research, FAIR](https://ai.facebook.com/research/)**
