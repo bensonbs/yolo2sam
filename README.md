@@ -12,18 +12,18 @@ pip install git+https://github.com/facebookresearch/segment-anything.git
 pip install rich shutil
 ```
 
-Step1. 由CVAT輸出`YOLO`標注結果
+### Step1. 由CVAT輸出`YOLO`標注結果
 <p float="left">
   <img src="demo/03.png" width="100%" />
 </p>
 
-Step2. Export format選擇`YOLO 1.1` ,`句選` Save images ,點擊`OK`
+### Step2. Export format選擇`YOLO 1.1` ,`句選` Save images ,點擊`OK`
 
 <p float="left">
   <img src="demo/04.png" width="50%" />
 </p>
 
-Step3. 執行yolo2sam.py
+### Step3. 執行yolo2sam.py
 ```
 python yolo2sam.py -p /path/to/output.zip
 ```
@@ -37,7 +37,7 @@ Working... ━━━━━━━━━━━━━━━━━━━━━━━
 Finshed, output in /home/mefae1/下載/output-seg.zip
 ```
 
-Step3. 上傳`output-seg.zip`
+### Step4. 上傳`output-seg.zip`
 <p float="left">
   <img src="demo/05.png" width="50%" />
 </p>
